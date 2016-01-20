@@ -7,10 +7,14 @@ Scenario: Adding an item to basket
 	Given I am on an item page
 	When I add the item to the basket
 	Then I should see the following
-	| Message                            | ItemCount | BasketTotal |
-	| This item was added to your Basket | 1         | £15.00      |
+		| Message                            | ItemCount | BasketTotal |
+		| This item was added to your Basket | 1         | £15.00      |
 
-Scenario: verify my shopping bag
+Scenario: Verify my shopping bag
 	Given I am on an item page
-	And I add the item to the basket
+		And I add the item to the basket
 	When I navigate to "Bag"
+	Then I should see the following details
+		| Total Quantity | Sub Total |
+		| 1              | £15.00    |
+		

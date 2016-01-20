@@ -1,6 +1,5 @@
 ﻿using Automation.Selenium.Tests.Drivers;
 using Automation.Selenium.Tests.PageObjects.Pages;
-using Automation.Selenium.Tests.Drivers;
 using Automation.Selenium.Tests.PageObjects.Navigation;
 
 namespace Automation.Selenium.Tests.PageObjects.PageFactory
@@ -12,6 +11,11 @@ namespace Automation.Selenium.Tests.PageObjects.PageFactory
             var page = new T();
             OpenQA.Selenium.Support.PageObjects.PageFactory.InitElements(SeleniumDriver.Instance, page);
             return page;
+        }
+
+        public static Header Header
+        {
+            get { return GetPage<Header>(); }
         }
 
         public static HomePage HomePage
@@ -34,9 +38,9 @@ namespace Automation.Selenium.Tests.PageObjects.PageFactory
             get { return GetPage<DefaultItemPage>(); }
         }
 
-        public static Header Header
+        public static MyShoppingBagPage MyShoppingBagPage
         {
-            get { return GetPage<Header>(); }
+            get { return GetPage<MyShoppingBagPage>(); }
         }
     }
 }

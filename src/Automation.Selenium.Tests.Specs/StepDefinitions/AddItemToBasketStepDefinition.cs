@@ -32,6 +32,13 @@ namespace Automation.Selenium.Tests.Specs.StepDefinitions
         {
             expectedValues.CompareToSet(Pages.Header.ChangesAfterAddingItemToBasket());
         }
+
+        [Then(@"I should see the following details")]
+        public void ThenIShouldSeeTheFollowingDetails(Table expectedValues)
+        {
+            expectedValues.CompareToSet(Pages.MyShoppingBagPage.GetTotalQuantityAndSubTotal());
+        }
+
     }
 }
 
