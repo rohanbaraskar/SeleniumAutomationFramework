@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Insight.Web.BddTests.Specs</id>
+    <version>$version$</version>
+    <title>Insight.Web.BddTests.Specs</title>
+    <authors>Nephila Capital</authors>
+    <owners>Nephila Capital</owners>
+    <projectUrl>https://stash.nephila.com/projects/IN/repos/insight.web.bddtests/browse</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nephila Insight Web Bdd Tests</description>
+    <summary>Nephila Insight Web Bdd Tests</summary>
+    <releaseNotes />
+    <tags>nephila insight bdd tests</tags>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\*.dll" target="\" />
+    <file src="bin\$configuration$\*.pdb" target="\" />
+    <file src="bin\$configuration$\*.config" target="\" />
+    <file src="*.csproj" target="\" />
+    <file src="App.config" target="\" />
+    <file src="Features\*.feature" target="Features\" />
+  </files>
+</package>

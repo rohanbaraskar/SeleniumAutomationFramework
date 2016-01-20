@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Nephila.Toolkit.Serilog</id>
+    <version>1.0.21</version>
+    <title>Nephila.Toolkit.Serilog</title>
+    <authors>Nephila Capital</authors>
+    <owners>Nephila Capital</owners>
+    <projectUrl>https://stash.nephila.com/projects/NTK/repos/toolkit.serilog/browse</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nephila Toolkit Serilog</description>
+    <summary>Nephila Toolkit Serilog</summary>
+    <releaseNotes />
+    <tags>nephila toolkit serilog</tags>
+    <dependencies>
+      <dependency id="Nephila.Toolkit.Core" version="1.0.26" />
+      <dependency id="Serilog" version="1.5.7" />
+    </dependencies>
+  </metadata>
+</package>

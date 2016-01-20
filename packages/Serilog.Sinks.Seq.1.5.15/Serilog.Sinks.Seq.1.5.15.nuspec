@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Serilog.Sinks.Seq</id>
+    <version>1.5.15</version>
+    <authors>Serilog Contributors, Continuous IT Pty Ltd</authors>
+    <owners>Serilog Contributors, Continuous IT Pty Ltd</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>http://serilog.net/</projectUrl>
+    <iconUrl>http://serilog.net/images/serilog-sink-seq-nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Serilog sink that writes to the Seq event server over HTTP/S.</description>
+    <tags>serilog seq structured logging</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Serilog" version="1.5.1" />
+        <dependency id="Microsoft.Net.Http" version="2.2.20" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Serilog" version="1.5.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Nephila.Toolkit.Core</id>
+    <version>1.0.26</version>
+    <title>Nephila.Toolkit.Core</title>
+    <authors>Nephila Capital</authors>
+    <owners>Nephila Capital</owners>
+    <projectUrl>https://stash.nephila.com/projects/NTK/repos/toolkit.core/browse</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nephila Toolkit Core</description>
+    <summary>Nephila Toolkit Core</summary>
+    <releaseNotes />
+    <tags>nephila toolkit core</tags>
+  </metadata>
+</package>

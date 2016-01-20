@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Seq.Client.Serilog</id>
+    <version>2.2.1</version>
+    <authors>Continuous IT Pty Ltd</authors>
+    <owners>Continuous IT Pty Ltd</owners>
+    <licenseUrl>http://apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <projectUrl>https://github.com/continuousit/seq-client</projectUrl>
+    <iconUrl>http://getseq.net/images/nuget/seq-client-serilog.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Obsolete - this package has been replaced by the Serilog.Sinks.Seq package.</description>
+    <dependencies>
+      <dependency id="Serilog.Sinks.Seq" />
+    </dependencies>
+  </metadata>
+</package>
