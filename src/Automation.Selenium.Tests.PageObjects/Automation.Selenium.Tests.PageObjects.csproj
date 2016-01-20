@@ -75,11 +75,13 @@
     <Compile Include="Configuration\ApplicationSettings.cs" />
     <Compile Include="Configuration\TestConfig.cs" />
     <Compile Include="Model\AddedToBasket.cs" />
+    <Compile Include="Model\MyShoppingBag.cs" />
     <Compile Include="PageFactory\Pages.cs" />
     <Compile Include="Pages\DefaultItemPage.cs" />
     <Compile Include="Navigation\Header.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Pages\ItemPage.cs" />
+    <Compile Include="Pages\MyShoppingBagPage.cs" />
     <Compile Include="Pages\SearchResultPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestBase.cs" />
