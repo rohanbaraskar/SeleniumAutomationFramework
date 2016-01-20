@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects" DefaultTargets="Build">
+  <PropertyGroup>
+    <MSBuildToolsPath32>C:\Program Files (x86)\MSBuild\12.0\bin\</MSBuildToolsPath32>
+    <MSBuildToolsRoot>C:\Program Files (x86)\MSBuild\</MSBuildToolsRoot>
+    <MSBuildFrameworkToolsPath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\</MSBuildFrameworkToolsPath>
+    <MSBuildFrameworkToolsPath32>C:\Windows\Microsoft.NET\Framework\v4.0.30319\</MSBuildFrameworkToolsPath32>
+    <MSBuildFrameworkToolsRoot>C:\Windows\Microsoft.NET\Framework\</MSBuildFrameworkToolsRoot>
+    <MSBuildRuntimeVersion>4.0.30319</MSBuildRuntimeVersion>
+    <FrameworkSDKRoot>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\</FrameworkSDKRoot>
+    <SDK35ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\</SDK35ToolsPath>
+    <SDK40ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\</SDK40ToolsPath>
+    <VCTargetsPath>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\</VCTargetsPath>
+    <VCTargetsPath10>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\</VCTargetsPath10>
+    <VCTargetsPath11>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\</VCTargetsPath11>
+    <VCTargetsPath12>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\</VCTargetsPath12>
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+    <WindowsSDK80Path>C:\Program Files (x86)\Windows Kits\8.1\</WindowsSDK80Path>
+    <Platform>Any CPU</Platform>
+    <AspNetConfiguration>Release</AspNetConfiguration>
+    <SolutionDir>C:\TeamCity\buildAgent\work\98a5da83bb08b935\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>Seq.Client.sln</SolutionFileName>
+    <SolutionName>Seq.Client</SolutionName>
+    <SolutionPath>C:\TeamCity\buildAgent\work\98a5da83bb08b935\Seq.Client.sln</SolutionPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{FDB9EB76-5732-4B36-8BEB-E3817DB0F271}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CBDC0A30-5EC1-4DFE-AB0A-8CFC181B7DAB}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EE667DA8-C6CD-4238-8AB0-DC438A8DAB16}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{8554E779-2A34-4AB3-98ED-8EBB7EFC4B91}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{14EE361C-E229-4680-B06E-F4381C70DB21}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A268EED6-9A37-414E-B1BB-6115FB964AB2}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{4A86C09E-1C2C-4BC8-AEA7-AC91FB30A7E1}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <SolutionConfiguration Include="Debug|Any CPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{FDB9EB76-5732-4B36-8BEB-E3817DB0F271}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CBDC0A30-5EC1-4DFE-AB0A-8CFC181B7DAB}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EE667DA8-C6CD-4238-8AB0-DC438A8DAB16}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{8554E779-2A34-4AB3-98ED-8EBB7EFC4B91}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{14EE361C-E229-4680-B06E-F4381C70DB21}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A268EED6-9A37-414E-B1BB-6115FB964AB2}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{4A86C09E-1C2C-4BC8-AEA7-AC91FB30A7E1}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+    <SolutionConfiguration Include="Release|Any CPU">
+      <Configuration>Release</Configuration>
+      <Platform>Any CPU</Platform>
+      <Content>
+        <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{FDB9EB76-5732-4B36-8BEB-E3817DB0F271}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{CBDC0A30-5EC1-4DFE-AB0A-8CFC181B7DAB}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{EE667DA8-C6CD-4238-8AB0-DC438A8DAB16}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{8554E779-2A34-4AB3-98ED-8EBB7EFC4B91}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{14EE361C-E229-4680-B06E-F4381C70DB21}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{A268EED6-9A37-414E-B1BB-6115FB964AB2}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{4A86C09E-1C2C-4BC8-AEA7-AC91FB30A7E1}" AbsolutePath="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+      </Content>
+    </SolutionConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+    <ProjectReference Include="C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj">
+      <ToolsVersion>
+      </ToolsVersion>
+      <SkipNonexistentProjects>False</SkipNonexistentProjects>
+      <AdditionalProperties>Configuration=Release; Platform=AnyCPU</AdditionalProperties>
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Warning Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" Text="The specified solution configuration &quot;$(Configuration)|$(Platform)&quot; is invalid. Please specify a valid solution configuration using the Configuration and Platform properties (e.g. MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;) or leave those properties blank to use the default solution configuration." Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" />
+    <Message Condition="'$(CurrentSolutionConfigurationContents)' != ''" Text="Building solution configuration &quot;$(Configuration)|$(Platform)&quot;." />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" />
+  </Target>
+  <Target Name="ValidateProjects" />
+  <Target Name="GetSolutionConfigurationContents" Outputs="$(SolutionConfigurationContents)" />
+  <Target Name="Build" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Projects="@(ProjectReference)" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Clean">
+    <MSBuild Projects="@(ProjectReference-&gt;Reverse())" Targets="Clean" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+  </Target>
+  <Target Name="Rebuild" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Publish">
+    <MSBuild Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" Properties="BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" SkipNonexistentProjects="%(ProjectReference.SkipNonexistentProjects)" />
+  </Target>
+  <Target Name="Serilog\SeqSerilogExample" Outputs="@(Serilog_SeqSerilogExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Serilog_SeqSerilogExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Serilog\SeqSerilogExample:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="Serilog\SeqSerilogExample:Rebuild" Outputs="@(Serilog_SeqSerilogExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="Serilog_SeqSerilogExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="Serilog\SeqSerilogExample:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSimpleExample\SeqSerilogExample.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="log4net\Seq_Client_Log4Net" Outputs="@(log4net_Seq_Client_Log4NetBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="log4net_Seq_Client_Log4NetBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="log4net\Seq_Client_Log4Net:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="log4net\Seq_Client_Log4Net:Rebuild" Outputs="@(log4net_Seq_Client_Log4NetBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="log4net_Seq_Client_Log4NetBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="log4net\Seq_Client_Log4Net:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Log4Net\Seq.Client.Log4Net.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="log4net\SeqLog4NetExample" Outputs="@(log4net_SeqLog4NetExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="log4net_SeqLog4NetExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="log4net\SeqLog4NetExample:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="log4net\SeqLog4NetExample:Rebuild" Outputs="@(log4net_SeqLog4NetExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="log4net_SeqLog4NetExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="log4net\SeqLog4NetExample:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqLog4NetExample\SeqLog4NetExample.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="NLog\Seq_Client_NLog" Outputs="@(NLog_Seq_Client_NLogBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="NLog_Seq_Client_NLogBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="NLog\Seq_Client_NLog:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="NLog\Seq_Client_NLog:Rebuild" Outputs="@(NLog_Seq_Client_NLogBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="NLog_Seq_Client_NLogBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="NLog\Seq_Client_NLog:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.NLog\Seq.Client.NLog.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="NLog\SeqNLogExample" Outputs="@(NLog_SeqNLogExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="NLog_SeqNLogExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="NLog\SeqNLogExample:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="NLog\SeqNLogExample:Rebuild" Outputs="@(NLog_SeqNLogExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="NLog_SeqNLogExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="NLog\SeqNLogExample:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqNLogExample\SeqNLogExample.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="SLAB\Seq_Client_Slab" Outputs="@(SLAB_Seq_Client_SlabBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="SLAB_Seq_Client_SlabBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="SLAB\Seq_Client_Slab:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="SLAB\Seq_Client_Slab:Rebuild" Outputs="@(SLAB_Seq_Client_SlabBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="SLAB_Seq_Client_SlabBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="SLAB\Seq_Client_Slab:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\src\Seq.Client.Slab\Seq.Client.Slab.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="SLAB\SeqSlabExample" Outputs="@(SLAB_SeqSlabExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj'" Projects="@(ProjectReference)" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="SLAB_SeqSlabExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="SLAB\SeqSlabExample:Clean">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj'" Projects="@(ProjectReference)" Targets="Clean" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+  <Target Name="SLAB\SeqSlabExample:Rebuild" Outputs="@(SLAB_SeqSlabExampleBuildOutput)">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj'" Projects="@(ProjectReference)" Targets="Rebuild" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="SLAB_SeqSlabExampleBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="SLAB\SeqSlabExample:Publish">
+    <MSBuild Condition="'%(ProjectReference.Identity)' == 'C:\TeamCity\buildAgent\work\98a5da83bb08b935\example\SeqSlabExample\SeqSlabExample.csproj'" Projects="@(ProjectReference)" Targets="Publish" BuildInParallel="True" ToolsVersion="$(ProjectToolsVersion)" Properties="Configuration=Release; Platform=AnyCPU;BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" />
+  </Target>
+</Project>
